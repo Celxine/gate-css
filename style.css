@@ -1,6 +1,9 @@
 
 
-
+body{
+    width: 1600px;
+    margin: 0px;
+}
 #download{
     color: rgb(87, 87, 138);
 }
@@ -43,29 +46,47 @@ margin: 0px;
 }
 
 .form{
+    
+    margin-bottom: 180px;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
     background-color: white;
-    margin: 50px;
-    gap: 77px;
-    border-radius: 45px;
-    border-spacing: 300px;
-    float: right;
-    height: 90px;
-    width: 900px;
+    text-align: center;
+    border-radius: 30px;
+    border-width: 1px;
+    height: 110px;
+    width: 1500px;
+border-color: rgb(209, 197, 197);
+position: sticky;
+        
+}
+.form button{
+ width: 230px;
+ height: 50px;
+ text-align: left;
+ border-radius: 10px;
+ border-width: 1px;
+ margin-left: 20px;
+ margin-top: 10px;
+ 
 }
 
 #seek{
     border-radius: 25px;
-    background-color: rgb(21, 21, 94);
+    background-color: #40445C;
     font-style: arial;
     font-size: 22px;
     color: white;
-    margin: 22px;
+    margin-left: 20px;
+    margin-right: 20px;
     border-style: none;
 height: 50px;
 width: 90px;
-
 }
-
+.seek:hover{
+background-color: #2f2c2c;
+}
 
 
 .Sign{
@@ -76,7 +97,18 @@ border-radius: 22px;
 height: 62px;
 width: 1500px;
 margin: 10px;
+}
 
+.Sign h2{
+padding-top: 22px;
+}
+
+.Sign button{
+    border-radius: 22px;
+    height: 40px;
+    width: 90px;
+    float: right;
+    margin-top: 0px;
 }
 #message{
    background-color: rgb(107, 168, 168);
@@ -85,13 +117,11 @@ margin: 10px;
    float: left;
 }
 
-#reg{
-    border-radius: 22px;
-    height: 40px;
-    width: 90px;
-    float: right;
-    margin-top: 0px;
-    
+
+.popular{
+color: #191E3B;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 10px;
 }
 
 .scroll-container3{
@@ -110,8 +140,13 @@ margin: 10px;
     padding: 10px;
     scroll-behavior: smooth; 
     white-space: nowrap;
+    border-radius: 12px;
+    border:1px solid #DFE0E4;
+    font-size: 20px;
 }
-
+.travel-photos{
+    border-radius: 20px 20px 0px 0px;  
+}
 
 
 h1 {
@@ -131,9 +166,19 @@ h3 {
     padding: 10px;
     scroll-behavior: smooth; 
     white-space: nowrap;
-    
+ }
+ .weekend{
+    display: flex;
+ }
 
-}
+ 
+
+ .weekend img{
+    border-radius: 20px;
+    width: 780px;
+    height: 500px;
+    padding: 12px;
+ }
 .scroll-container div h3 span{
 display: inline-block;
 background: #4caf50; 
@@ -160,7 +205,16 @@ margin-right: 5px;
     font-size: 15px;
     color: #2f2c2c;
 }
-
+.browse h1{
+    color: #191E3B;
+font-size: 40px;
+font-family: 'Trebuchet MS','Lucida Grande', Arial, sans-serif;
+}
+.browse h3{
+    color: #191E3B;
+    font-size: 22px;
+    font-family: 'Trebuchet MS','Lucida Grande', Arial, sans-serif;
+}
 .suits{
     border-radius: 50px;
     gap: 44px;
@@ -195,6 +249,7 @@ background-image: url(./near-beach.jpeg);
 
 width: 200px;
 /* height: 190px; */
+background-size: 400px;
 font-size: 20px;
 font-weight: 500;
 font-family: Arial, Helvetica, sans-serif;
