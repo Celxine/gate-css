@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
+    <section class="Everything">
 
         <div>
    
@@ -33,25 +33,23 @@
 <div class="main">
 
     <br><br>
-    <h1 id="Everything">Everything is fine, you book with FeWo-direkt</h1>
-
-  <div class="form">
-
-
-<button>Wo soll's hingehen?</button>
-
-<button><label for="date">
-
-    <input type="datetime-local" id="date" placeholder="February 1st - February 15th" name="data">
-    </label></button>
-    
- <button>guests <br> 2 travelers</button>
-
-</label>
-<button type="submit" id="seek">Seek</button>
-</div>  
+    <h1 id="Everything">Everything is fine, you book with FeWo-direkt</h1> 
 </div>
+<div class="form">
 
+
+    <button>Wo soll's hingehen?</button>
+    
+    <button><label for="date">
+    
+        <input type="datetime-local" id="date" placeholder="February 1st - February 15th" name="data">
+        </label></button>
+        
+     <button>guests <br> 2 travelers</button>
+    
+    </label>
+    <button type="submit" id="seek">Seek</button>
+    </div> 
 
 <div class="Sign">
     <img src="message.svg" alt="message"  width="60px"  height="50px" id="message">
@@ -125,31 +123,33 @@
 
 <div class="scroll-container2">
 
-    <div>
+<div class="homs">
+    
 <img src="holiday home.jpeg" alt="holiday home" width="400px" height="500px">
 <p>holiday home</p>
 </div>
-<div>
+
+<div class="homs">
 <img src="holiday apartment.jpeg" alt="holiday apartment" width="400px" height="500px">
 <p>holiday apartment</p>
 </div>
 
-<div>
+<div class="homs">
 <img src="holiday cottage.jpeg" alt="holiday cottage" width="400px" height="500px">
 <p>holiday cottage</p>
 </div>
 
-<div>
+<div class="homs">
 <img src="country house.jpeg" alt="country house" width="400px" height="500px">
 <p>country house</p>
 </div>
 
-<div>
+<div class="homs">
 <img src="villa.jpeg" alt="villa" width="400px" height="500px">
 <p>villa</p>
 </div>
 
-<div>
+<div class="homs">
 <img src="chalet.jpeg" alt="chalet" width="400px" height="500px">
 <p>chalet </p>
 </div>
@@ -158,10 +158,16 @@
 <br><br><br>
 
 <div class="weekend">
-    <img src="finallyweekend.jpeg" alt="finally">
+    <div class="vac">
+        <img src="finally.jpeg" alt="finally">
     <p>FINALLY WEEKEND <br>Time out together with FeWo-direkt</p>
-    <img src="toprated.jpeg" alt="toprated">
+    </div>
+    
+    <div class="vac">
+        <img src="top.jpeg" alt="toprated">
     <p>Top rated accomodations 2025 <br>Book your holiday in a popular holiday accomodation</p>
+    
+    </div>
     
 </div>
 
@@ -172,7 +178,7 @@
 
 <div class="scroll-container">
     <div>
-    <img src="holiday home.jpeg" alt="holiday home" width="200px" height="100">
+    <img src="holiday home.jpeg" alt="holiday home" width="200px" height="200px">
 <h3><span>9.4</span>Unusual (155 reviews)</h3>
 <p>Detached house with large garden, <br> suitable for families with children
 <span>Lenzkirch, Baden-Wuerttemberg</span>
@@ -183,7 +189,7 @@ incl. taxes & fees</p>
     </div>
 
     <div>
-    <img src="holiday apartment.jpeg" alt="holiday apartment" width="200px" height="100">
+    <img src="holiday apartment.jpeg" alt="holiday apartment" width="200px" height="200px">
     <h3><span>10</span>Unusual (167 reviews)</h3>
     <p> Exclusive bungalow in an idyllic location <br>at the foot of Andechs Monastery
     <span>Andechs, Bavaria</span>
@@ -194,7 +200,7 @@ incl. taxes & fees</p>
     </div>
        
       <div> 
-   <img src="holiday cottage.jpeg" alt="holiday cottage" width="200px" height="100">
+   <img src="holiday cottage.jpeg" alt="holiday cottage" width="200px" height="200px">
    <h3><span>9.2</span>Wonderful (105 reviews)</h3>
    <p> Berlin, Spandau </p>
        <h1>263 €</h1>
@@ -203,7 +209,7 @@ incl. taxes & fees</p>
     </div>
     
     <div>
-        <img src="holiday cottage.jpeg" alt="holiday cottage" width="200px" height="100">
+        <img src="holiday cottage.jpeg" alt="holiday cottage" width="200px" height="200px">
         <h3><span>9.2</span>Wonderful (105 reviews)</h3>
    <p> Berlin, Spandau </p>
        <h1>263 €</h1>
@@ -212,7 +218,7 @@ incl. taxes & fees</p>
     </div>
 
     <div>
-        <img src="country house.jpeg" alt="country house" width="200px" height="100"> 
+        <img src="country house.jpeg" alt="country house" width="200px" height="200px"> 
         <h3><span>9.2</span>Wonderful (105 reviews)</h3>
    <p> Berlin, Spandau </p>
        <h1>263 €</h1>
@@ -222,7 +228,7 @@ incl. taxes & fees</p>
 
 
     <div>
-               <img src="country house.jpeg" alt="country house" width="200px" height="100px"> 
+               <img src="country house.jpeg" alt="country house" width="200px" height="200px"> 
         <h3><span>9.2</span>Wonderful (105 reviews)</h3>
    <p> Berlin, Spandau </p>
        <h1>263 €</h1>
@@ -236,37 +242,40 @@ incl. taxes & fees</p>
 
 <div class="private">
 <h1>Find private accomodation <br>that suits you</h1>
-<p>Do you want to take everyone with you,<br> from grandma to baby? <br> And your furry friends too? Discover holiday accommodations that meet your needs.</p>
+<p>Do you want to take everyone with you,<br> from grandma to baby? <br> And your furry <br>friends too? Discover holiday <br>accommodations that meet your needs.</p>
 </div>
 
 <div class="scroll-container4">
-<div class="near">
+
+<div class="pets">
+<img src="near-beach.jpeg" alt="" width= "150px" height="190px"> 
         <h3>Near the beach</h3>
-        <!-- <img src="near beach.jpeg" alt="" width= "150px"; -->
-        <!-- height="160px"> -->
         </div>
         
         <div class="pets">
-        <h3>pets welcome</h3>
         <img src="pets welcome.jpeg" alt="" width= "150px";
-        height="160px">
+        height="190px">
+        <h3>pets welcome</h3>
         </div><br>
         
-        <div  class="pools">
-            <h3>pools</h3>
+        <div  class="pets">
+  
             <img src="pools.jpeg" alt="" width= "150px";
-        height="160px">
+        height="190px">
+        <h3>pools</h3>
         </div>
         
-        <div  class="bedrooms">
-            <h3>More than three bedrooms</h3>
-        <img src="more than three bedrooms.jpeg" alt=""  width= "150px" height="160px">
+        <div  class="pets">
+    
+        <img src="more than three bedrooms.jpeg" alt=""  width= "150px" height="190px">
+        <h3>More than three bedrooms</h3>
         </div>
         
-        <div class="holidays">
-         <h3>holiday rentals with free cancellation</h3>
+        <div class="pets">
+         
         <img src="holiday rentals.jpeg" alt=""  width= "150px";
-        height="160px">
+        height="190px">
+        <h3>holiday rentals with free cancellation</h3>
         </div>
 </div>
 </div>
@@ -307,7 +316,7 @@ incl. taxes & fees</p>
 <h1>Rent your accommodation <br>with confidence <br>with FeWo-direkt</h1><br>
 <p>Real-time support, quick and easy registration <br>and guests with positive feedback – at FeWo-<br>direkt, hosting feels like a vacation.</p><br>
 <br>
-<button type="submit" id="Advertise">Advertise accomodation</button>
+<button type="submit">Advertise accomodation</button>
 </div>
 </div>
 
@@ -324,11 +333,17 @@ incl. taxes & fees</p>
 <div>
     <h1>Popular travel destinations</h1><br>
     <form action="post">
-        Top-Reiseziele
-        Weitere Top-Reiseziele
-        Ferienhäuser
-        Villen und Ferienwohnungen
-        Urlaubsideen
+    <ul>
+    <label for="top"><li>Top-Reiseziele</li></label>
+    <input type="Top-Reiseziele"><br>   
+    <input type="Weitere Top-Reiseziele"><br>
+    <input type="Top-Reiseziele"><br>
+    <input type="Top-Reiseziele"><br>  
+    <li>Weitere Top-Reiseziele</li>  
+    <li> Ferienhäuser</li>  
+    <li>Villen und Ferienwohnungen</li>
+    <li>Urlaubsideen</li>
+    </ul>
     </form>
 </div>
 
@@ -374,6 +389,7 @@ incl. taxes & fees</p>
     </ul>
  
 </div>
+
 <br>br
 <div>
 <footer>© 2025 HomeAway, an Expedia Group company. All rights reserved. HomeAway and the HomeAway logo are trademarks or registered trademarks of HomeAway.com, Inc.</footer>
